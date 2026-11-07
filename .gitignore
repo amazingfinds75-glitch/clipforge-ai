@@ -1,0 +1,36 @@
+# Node
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Local media and generated output
+storage/
+media/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
